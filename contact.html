@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Me | Noah’s Art</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" />
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="dreams.html">Dreams</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <!-- PAGE INTRODUCTION -->
+      <section class="page-hero">
+        <div class="page-hero-content">
+          <p class="section-label hero-label">CONTACT ME</p>
+
+          <h1>Let’s get <span class="highlight">in touch</span>!</h1>
+
+          <p>
+            Have something to share, ask, or discuss? Here’s where you can find
+            me and get in touch!
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT WINDOWS -->
+      <section class="contact-container">
+        <!-- CONTACT INFORMATION -->
+        <section class="content-window contact-info-window">
+          <div class="window-header window-green">
+            <div class="window-title">
+              <h2>Find Me Through Email</h2>
+            </div>
+          </div>
+
+          <div class="window-body">
+            <p class="contact-description">
+              You can reach me through either of these email addresses,
+              depending on the nature of your inquiry!
+            </p>
+
+            <!-- PROFESSIONAL EMAIL -->
+            <article class="email-card professional-email">
+              <div class="email-icon">
+                <span>💼</span>
+              </div>
+
+              <div class="email-details">
+                <h3>Professional Email</h3>
+
+                <p>
+                  For professional inquiries, opportunities, and potential
+                  collaborations.
+                </p>
+
+                <a href="mailto:silang.noah@gmail.com">
+                  silang.noah@gmail.com
+                </a>
+              </div>
+            </article>
+
+            <!-- INSTITUTIONAL EMAIL -->
+            <article class="email-card institutional-email">
+              <div class="email-icon">
+                <span>🎓</span>
+              </div>
+
+              <div class="email-details">
+                <h3>Institutional Email</h3>
+
+                <p>
+                  For academic matters, school-related inquiries, and other
+                  educational concerns.
+                </p>
+
+                <a href="mailto:0326-1526@lspu.edu.ph">
+                  0326-1526@lspu.edu.ph
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="content-window contact-form-window">
+          <div class="window-header window-blue">
+            <div class="window-title">
+              <h2>Send Me a Message</h2>
+            </div>
+          </div>
+
+          <div class="window-body">
+            <p class="contact-description">
+              Have something on your mind? Feel free to leave a message using
+              the form below!
+            </p>
+
+            <form class="contact-form">
+              <!-- NAME -->
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+
+                <input
+                  type="text"
+                  id="contact-name"
+                  name="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+
+              <!-- EMAIL -->
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+
+                <input
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  placeholder="example@email.com"
+                />
+              </div>
+
+              <!-- SUBJECT -->
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+
+                <input
+                  type="text"
+                  id="contact-subject"
+                  name="subject"
+                  placeholder="What’s this about?"
+                />
+              </div>
+
+              <!-- MESSAGE -->
+              <div class="form-group">
+                <label for="contact-message">Your Message</label>
+
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+
+              <!-- SUBMIT BUTTON -->
+              <button type="button" class="contact-submit">
+                Send Message <span>➜</span>
+              </button>
+
+              <p class="form-note">
+                This form is for demonstration purposes only and does not
+                actually send messages.
+              </p>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy;2026 Noah’s Art. All rights reserved.</p>
+
+      <p>Made with a little bit of creativity and a lot of love &lt;3</p>
+    </footer>
+  </body>
+</html>
